@@ -10,13 +10,15 @@
 		@include vendor('display', 'flex');
 		cursor: default;
 		list-style: none;
-		margin-left: (_size(element-margin) * -0.5);
 		padding-left: 0;
 		flex-wrap:wrap;
 
 		li {
 			padding: (_size(element-margin) * 0.15);
 			vertical-align: middle;
+		}
+		.button{
+			text-transform: none;
 		}
 
 		&.special {
@@ -30,6 +32,7 @@
 				}
 			}
 		}
+
 
 		&.stacked {
 			@include vendor('flex-direction', 'column');

@@ -656,7 +656,7 @@ ol li {
 }
 
 ul {
-  list-style: disc;
+  list-style: inside;
   margin: 0 0 2rem 0;
   padding-left: 1em;
 }
@@ -696,13 +696,15 @@ ul.actions {
   display: flex;
   cursor: default;
   list-style: none;
-  margin-left: -1rem;
   padding-left: 0;
   flex-wrap: wrap;
 }
 ul.actions li {
   padding: 0.3rem;
   vertical-align: middle;
+}
+ul.actions .button {
+  text-transform: none;
 }
 ul.actions.special {
   -moz-justify-content: center;
