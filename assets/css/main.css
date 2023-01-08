@@ -698,9 +698,10 @@ ul.actions {
   list-style: none;
   margin-left: -1rem;
   padding-left: 0;
+  flex-wrap: wrap;
 }
 ul.actions li {
-  padding: 0 0 0 1rem;
+  padding: 0.3rem;
   vertical-align: middle;
 }
 ul.actions.special {
@@ -944,7 +945,6 @@ button.small,
   font-size: 0.6rem;
   height: 1.375rem;
   line-height: 1.375rem;
-  margin: 0.25em;
 }
 input[type=submit].primary,
 input[type=reset].primary,
