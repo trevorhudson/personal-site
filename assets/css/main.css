@@ -577,6 +577,10 @@ input[type=radio] + label:before {
   font-family: "Font Awesome 5 Brands";
 }
 
+i.dev {
+  font-size: 2em;
+}
+
 /* Image */
 .image {
   border-radius: 4px;
